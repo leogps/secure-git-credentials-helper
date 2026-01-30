@@ -3,7 +3,7 @@
 set -e
 
 install_dependencies() {
-	apt install -y gnupg2 pinentry-curses	
+	sudo apt install -y gnupg2 pinentry-curses
 }
 
 restart_gpg_agent() {
